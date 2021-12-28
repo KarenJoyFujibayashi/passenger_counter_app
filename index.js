@@ -16,7 +16,6 @@ let countEl = document.getElementById("count-el") // pass argurments
 let count = 0
 console.log(saveEl)
 
-// console.log(countEl)
 
 
 function increment(){

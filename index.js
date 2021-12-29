@@ -116,3 +116,14 @@ function save(){
 // HINT : count = count + 1
 
 // welcomeEl.innerText += " 👋🏻" // shortcut same as welcomeEl.innerText = welcomeEl.innerText + " 👋🏻"
+
+
+
+// Challenge # 5 needs html
+// When the user click the purchase button, render out
+// "Something went wrong, please try again!" in the paragraph
+//that has the id = "error"
+let errorEl = document.getElementById("error")
+function errorMessage() {
+  errorEl.textContent = "Something went wrong, please try again!"
+}
